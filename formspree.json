@@ -1,0 +1,15 @@
+{
+    "forms": {
+      "contactMe": {
+        "name": "Formulário de Contato",
+        "actions" : [
+          {"type": "email", "to": "doval.guilherme94@gmail.com"}
+        ],
+        "fields" : {
+          "email": {
+            "required" : true
+          }
+        }
+      }
+    }
+}
