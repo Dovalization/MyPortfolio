@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
+import { shade } from 'polished'
 
 export const FormContainer = styled(motion.div)`
   width: 80%;
@@ -38,6 +39,7 @@ export const FormContainer = styled(motion.div)`
     border-radius: 10px;
     font-family: Montserrat, sans-serif;
     font-size: 16px;
+    resize: vertical;
   }
 
   input[type='text']:focus,
@@ -61,6 +63,14 @@ export const FormContainer = styled(motion.div)`
     border: none;
     margin: 1em auto;
     outline: 0;
+    border: 3px solid ${props => props.theme.colors.primary};
+    transition: all 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      background: ${shade(-0.15, '#2B77BC')};
+      border: 3px solid ${shade(-0.15, '#2B77BC')};
+    }
 
     @media screen and (max-width: 960px) {
       margin: 0;

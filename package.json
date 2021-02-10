@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "formspree" : "formspree deploy",
+    "formspree": "formspree deploy",
     "deploy": "next build && next export"
   },
   "dependencies": {
@@ -15,6 +15,7 @@
     "axios": "^0.21.1",
     "framer-motion": "^3.2.1",
     "next": "10.0.5",
+    "polished": "^4.1.0",
     "prismic-dom": "^2.2.4",
     "prismic-javascript": "^3.0.2",
     "react": "17.0.1",

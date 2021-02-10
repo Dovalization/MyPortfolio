@@ -1,4 +1,5 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import { shade } from 'polished'
 
 export const ButtonLink = styled.a`
   display: inline-block;
@@ -13,6 +14,15 @@ export const ButtonLink = styled.a`
   border-radius: 5px;
   width: fit-content;
   text-align: center;
+  box-sizing: border-box;
+  border: 3px solid ${props => props.theme.colors.primary};
+
+  &:hover {
+    background: ${shade(-0.15, '#2B77BC')};
+    border: 3px solid ${shade(-0.15, '#2B77BC')};
+  }
+
+  transition: all 0.2s;
 
   @media screen and (max-width: 960px) {
     margin: 0;

@@ -49,7 +49,7 @@ const Project: NextPage<IProjectProps> = ({ project }) => {
       <Navbar />
       <HeaderBackground>
         <Image
-          src="/guilherme-doval-about-bg.jpg"
+          src="/guilherme-doval-works-bg.jpg"
           layout="fill"
           objectFit="cover"
         />

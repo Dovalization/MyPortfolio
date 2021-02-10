@@ -20,7 +20,7 @@ const Contact: NextPage = () => {
       <Navbar />
       <HeaderBackground>
         <Image
-          src="/guilherme-doval-about-bg.jpg"
+          src="/guilherme-doval-contact-bg.jpg"
           layout="fill"
           objectFit="cover"
         />
