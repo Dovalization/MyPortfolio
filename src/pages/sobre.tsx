@@ -82,11 +82,11 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
               um projeto.
             </p>
             <Quote>
-              Human-centred design is fundamentally an affirmation of human
-              dignity. It is an ongoing search for what can be done to support
-              and strengthen the dignity of human beings as they act out their
-              lives in varied social, economic, political, and cultural
-              circumstances.
+              O design centrado no ser humano é fundamentalmente uma afirmação
+              da dignidade humana. É uma busca contínua do que pode ser feito
+              para apoiar e fortalecer a dignidade das pessoas ao viver suas
+              vidas em diversas circunstâncias sociais, econômicas, políticas e
+              culturais.
               <span>Richard Buchanan</span>
             </Quote>
             <Button href="/guilherme_doval_cv.pdf" newTab>
@@ -141,7 +141,7 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
               </div>
             </Experience>
             <Experience>
-              <span>2019</span>
+              <span>2017</span>
               <div>
                 <strong>Tecnólogo em Jogos Digitais</strong>
                 <p>UniRitter</p>
@@ -182,7 +182,7 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
             <Experience>
               <span>2017</span>
               <div>
-                <strong>Proficiencia em Inglês</strong>
+                <strong>Proficiência em Inglês</strong>
                 <p>Cambridge Assessments English</p>
               </div>
             </Experience>
