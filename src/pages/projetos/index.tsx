@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import Navbar from '../../components/Navbar'
+import SEO from '../../components/SEO'
 import {
   HeaderBackground,
   ContentContainer,
@@ -42,6 +43,8 @@ const Works: NextPage<IWorksProps> = ({ projects }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
+      <SEO title="Projetos" image="guilherme-doval-thumbnail.jpg" />
+
       <Navbar />
       <HeaderBackground>
         <Image

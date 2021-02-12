@@ -17,6 +17,7 @@ import Button from '../../components/Button'
 import { motion } from 'framer-motion'
 import Footer from '../../components/Footer'
 import Navbar from '../../components/Navbar'
+import SEO from '../../components/SEO'
 
 interface IProjectProps {
   project: Document
@@ -46,6 +47,13 @@ const Project: NextPage<IProjectProps> = ({ project }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
+      <SEO
+        title={`${PrismicDOM.RichText.asText(project.data.title)}`}
+        description={PrismicDOM.RichText.asText(project.data.description)}
+        image="guilherme-doval-thumbnail.jpg"
+        shouldIndexPage={false}
+      />
+
       <Navbar />
       <HeaderBackground>
         <Image

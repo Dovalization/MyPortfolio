@@ -5,6 +5,8 @@ import Image from 'next/image'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Form from '../components/Form'
+import SEO from '../components/SEO'
+
 import {
   HeaderBackground,
   ContentContainer,
@@ -17,6 +19,8 @@ const Contact: NextPage = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
+      <SEO title="Contato" image="guilherme-doval-thumbnail.jpg" />
+
       <Navbar />
       <HeaderBackground>
         <Image

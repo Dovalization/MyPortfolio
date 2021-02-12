@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { NextPage, GetStaticProps } from 'next'
 import api from '../../lib/api'
 import Navbar from '../components/Navbar'
+import SEO from '../components/SEO'
+
 import {
   HeaderBackground,
   ContentContainer,
@@ -49,6 +51,7 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
+      <SEO title="Sobre" image="guilherme-doval-thumbnail.jpg" />
       <Navbar />
       <HeaderBackground>
         <Image

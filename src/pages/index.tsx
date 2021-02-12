@@ -29,6 +29,7 @@ import PrismicDOM from 'prismic-dom'
 import { Document } from 'prismic-javascript/types/documents'
 import Button from '../components/Button'
 import Footer from '../components/Footer'
+import SEO from '../components/SEO'
 import { motion } from 'framer-motion'
 
 interface IHomeProps {
@@ -54,6 +55,11 @@ const Home: NextPage<IHomeProps> = ({ featuredProjects }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
+      <SEO
+        title="Guilherme Doval, Desenvolvedor Web"
+        shouldExcludeTitleSuffix
+        image="guilherme-doval-thumbnail.jpg"
+      />
       <NavBar />
       <HeroSection>
         <Image
