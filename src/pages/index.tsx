@@ -1,6 +1,5 @@
 /* eslint-disable multiline-ternary */
 import React, { useEffect, useState } from 'react'
-import Head from 'next/head'
 import Link from 'next/link'
 import { NextPage, GetStaticProps } from 'next'
 
@@ -59,6 +58,7 @@ const Home: NextPage<IHomeProps> = ({ featuredProjects }) => {
         title="Guilherme Doval, Desenvolvedor Web"
         shouldExcludeTitleSuffix
         image="guilherme-doval-thumbnail.jpg"
+        description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
       />
       <NavBar />
       <HeroSection>

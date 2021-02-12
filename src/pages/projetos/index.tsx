@@ -43,7 +43,11 @@ const Works: NextPage<IWorksProps> = ({ projects }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <SEO title="Projetos" image="guilherme-doval-thumbnail.jpg" />
+      <SEO
+        title="Projetos"
+        image="guilherme-doval-thumbnail.jpg"
+        description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
+      />
 
       <Navbar />
       <HeaderBackground>

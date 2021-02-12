@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { NextPage, GetStaticProps } from 'next'
@@ -51,7 +51,11 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
-      <SEO title="Sobre" image="guilherme-doval-thumbnail.jpg" />
+      <SEO
+        title="Sobre"
+        image="guilherme-doval-thumbnail.jpg"
+        description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
+      />
       <Navbar />
       <HeaderBackground>
         <Image
