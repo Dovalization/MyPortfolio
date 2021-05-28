@@ -13,9 +13,9 @@ const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
       <ThemeProvider theme={theme}>
         <GlobalStyle />
         <AnimatePresence exitBeforeEnter>
-          <Navbar />
+          <Navbar key='navbar'/>
           <Component {...pageProps} />
-          <Footer/>
+          <Footer key='footer'/>
         </AnimatePresence>
       </ThemeProvider>
     </FormspreeProvider>
