@@ -25,7 +25,6 @@ const Contact: NextPage = () => {
         description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
       />
 
-      <Navbar />
       <HeaderBackground>
         <Image
           src="/guilherme-doval-contact-bg.jpg"
@@ -37,7 +36,6 @@ const Contact: NextPage = () => {
         <Heading>Contato</Heading>
         <Form />
       </ContentContainer>
-      <Footer />
     </motion.div>
   )
 }

@@ -49,7 +49,6 @@ const Works: NextPage<IWorksProps> = ({ projects }) => {
         description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
       />
 
-      <Navbar />
       <HeaderBackground>
         <Image
           src="/guilherme-doval-works-bg.jpg"
@@ -100,7 +99,6 @@ const Works: NextPage<IWorksProps> = ({ projects }) => {
           ))}
         </ProjectsSection>
       </ContentContainer>
-      <Footer />
     </motion.div>
   )
 }

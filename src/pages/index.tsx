@@ -60,7 +60,6 @@ const Home: NextPage<IHomeProps> = ({ featuredProjects }) => {
         image="guilherme-doval-thumbnail.jpg"
         description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
       />
-      <NavBar />
       <HeroSection>
         <Image
           src="/guilherme-doval-home-herosec.jpg"
@@ -149,7 +148,6 @@ const Home: NextPage<IHomeProps> = ({ featuredProjects }) => {
         ))}
         <Button href="/projetos"> Ver todos os projetos</Button>
       </FeaturedProjectsContainer>
-      <Footer />
     </motion.div>
   )
 }

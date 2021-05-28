@@ -54,7 +54,6 @@ const Project: NextPage<IProjectProps> = ({ project }) => {
         shouldIndexPage={false}
       />
 
-      <Navbar />
       <HeaderBackground>
         <Image
           src="/guilherme-doval-works-bg.jpg"
@@ -118,7 +117,6 @@ const Project: NextPage<IProjectProps> = ({ project }) => {
           </div>
         </ProjectInfo>
       </ContentContainer>
-      <Footer />
     </motion.div>
   )
 }

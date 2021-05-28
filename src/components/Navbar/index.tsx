@@ -47,17 +47,17 @@ const Navbar: React.FC = () => {
           <NavMenu isOpen={isOpen}>
             <NavItem>
               <Link href="/sobre" passHref>
-                <NavLink>Sobre mim</NavLink>
+                <NavLink onClick={handleToggleMenu}>Sobre mim</NavLink>
               </Link>
             </NavItem>
             <NavItem>
               <Link href="/projetos" passHref>
-                <NavLink>Projetos</NavLink>
+                <NavLink onClick={handleToggleMenu}>Projetos</NavLink>
               </Link>
             </NavItem>
             <NavItem>
               <Link href="/contato" passHref>
-                <NavLink>Contato</NavLink>
+                <NavLink onClick={handleToggleMenu}>Contato</NavLink>
               </Link>
             </NavItem>
           </NavMenu>

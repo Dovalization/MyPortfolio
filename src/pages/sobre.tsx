@@ -56,7 +56,6 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
         image="guilherme-doval-thumbnail.jpg"
         description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
       />
-      <Navbar />
       <HeaderBackground>
         <Image
           src="/guilherme-doval-about-bg.jpg"
@@ -224,7 +223,6 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
           })}
         </RepositoriesContainer>
       </ContentContainer>
-      <Footer />
     </motion.div>
   )
 }
