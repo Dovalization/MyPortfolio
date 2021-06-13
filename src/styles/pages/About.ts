@@ -127,6 +127,7 @@ export const Experience = styled.div`
 
   display: flex;
   span {
+    width: 3.5rem;
     font-weight: 700;
     font-size: 24px;
     margin-right: 1em;

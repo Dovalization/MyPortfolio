@@ -117,6 +117,13 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
               <h2>Experiência</h2>
             </SubHeading>
             <Experience>
+              <span>2021</span>
+              <div>
+                <strong>Desenvolvedor Front-end</strong>
+                <p>FotonTech</p>
+              </div>
+            </Experience>
+            <Experience>
               <span>2020</span>
               <div>
                 <strong>Desenvolvedor Web Freelancer</strong>
