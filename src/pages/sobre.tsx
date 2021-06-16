@@ -1,8 +1,8 @@
+import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { NextPage, GetStaticProps } from 'next'
 import api from '../../lib/api'
-import Navbar from '../components/Navbar'
 import SEO from '../components/SEO'
 
 import {
@@ -57,11 +57,7 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
         description="Desenvolvedor front-end especialista no desenvolvimento de sites responsivos e elegantes para a web moderna."
       />
       <HeaderBackground>
-        <Image
-          src={aboutBg}
-          layout="fill"
-          objectFit="cover"
-        />
+        <Image src={aboutBg} layout="fill" objectFit="cover" />
       </HeaderBackground>
       <ContentContainer>
         <IntroSection>
@@ -102,9 +98,8 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
           <div>
             <Image
               src={aboutPicture}
-              layout="intrinsic"
               alt="Fotografia de Guilherme Doval"
-              placeholder='blur'
+              placeholder="blur"
             />
           </div>
         </IntroSection>
