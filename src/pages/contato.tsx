@@ -2,11 +2,9 @@ import React from 'react'
 import { NextPage } from 'next'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 import Form from '../components/Form'
 import SEO from '../components/SEO'
-
+import contactBg from '../../public/guilherme-doval-contact-bg.jpg'
 import {
   HeaderBackground,
   ContentContainer,
@@ -27,9 +25,10 @@ const Contact: NextPage = () => {
 
       <HeaderBackground>
         <Image
-          src="/guilherme-doval-contact-bg.jpg"
+          src={contactBg}
           layout="fill"
           objectFit="cover"
+          placeholder="blur"
         />
       </HeaderBackground>
       <ContentContainer>
