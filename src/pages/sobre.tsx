@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { NextPage, GetStaticProps } from 'next'
@@ -31,7 +30,8 @@ import {
 } from 'react-icons/fi'
 import Button from '../components/Button'
 import { motion } from 'framer-motion'
-import Footer from '../components/Footer'
+import aboutBg from '../../public/guilherme-doval-about-bg.jpg'
+import aboutPicture from '../../public/guilherme-doval-about-me.jpg'
 
 interface IRepository {
   id: number
@@ -58,7 +58,7 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
       />
       <HeaderBackground>
         <Image
-          src="/guilherme-doval-about-bg.jpg"
+          src={aboutBg}
           layout="fill"
           objectFit="cover"
         />
@@ -101,11 +101,10 @@ const About: NextPage<IAboutProps> = ({ repositories }) => {
           </div>
           <div>
             <Image
-              src="/guilherme-doval-about-me.jpg"
+              src={aboutPicture}
               layout="intrinsic"
-              height={550}
-              width={550}
               alt="Fotografia de Guilherme Doval"
+              placeholder='blur'
             />
           </div>
         </IntroSection>
