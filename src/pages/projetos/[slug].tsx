@@ -15,8 +15,6 @@ import {
 } from '../../styles/pages/Project'
 import Button from '../../components/Button'
 import { motion } from 'framer-motion'
-import Footer from '../../components/Footer'
-import Navbar from '../../components/Navbar'
 import SEO from '../../components/SEO'
 
 interface IProjectProps {
